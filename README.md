@@ -1,6 +1,7 @@
-# Description
-## For our first major project at Coder Academy in Sydney.
+# For our first major project at Coder Academy in Sydney.
+
 ### You are to design, build, deploy and present a portfolio website.
+
 		The website needs to have the following information:
 
 		1. Your name and contact details.
@@ -24,18 +25,22 @@
 
 		2. Demonstrate the design decisions made:
 
-  		Key concepts I know I want to include
-		* Disappearing nav bar when scrolling, and a goto top button.
-		* Scaleable portfolio section with mouse interaction.
-		* Snake Minigame.
-		* vr room
-		* contact us page
-		* link to browse happy for outdated browsers  
-		* main page above the fold.
-		* simple mobile design
-		* color changing background
-		* design must be easy to navigate.
-		*
+	  		Key concepts I know I want to include
+			* ~~Disappearing nav bar when scrolling, and a goto top button.~~ UPDATED
+				-- instead include Parrallax and single page above the fold.
+			* Scaleable portfolio section with mouse interaction.
+			  -- Carousel on separate separate page
+			* Snake Minigame. pj5.js
+			* vr room
+			* contact us page  -- link with a modal?
+			* link to browse happy for outdated browsers  
+			* main page above the fold.
+			* simple and effective mobile design
+			* color changing ~~background~~ Name plaque
+			* design must be easy to navigate.
+			* black and white, color on hover.
+
+
 
 
 		3. Demonstrate that you considered usability heuristics
@@ -45,12 +50,17 @@
 
 
 		4. Any wireframes
+			Figma wireframes https://www.figma.com/file/W9rRusHxPYtdYLt4C5s9j96B/Portfolio
+
 
 
 
 		5. Style guide
+			Main focus is professional clean image.
+			Reactive tiles for sections to navigate put on a parrallax;
+			Focus on black and white and color only on hover .
+			
 
-		
 
 
 		6. Personal Logo
