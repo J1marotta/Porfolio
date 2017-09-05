@@ -58,8 +58,9 @@
 		5. Style guide
 			Main focus is professional clean image.
 			Reactive tiles for sections to navigate put on a parrallax;
-			Focus on black and white and color only on hover .
-			
+			Focus on black and white and color only on hover.
+			moodboard done on pinterest with monotone colors and yellow highlights
+			https://au.pinterest.com/jim_is55/portfolio/
 
 
 

@@ -1,0 +1,98 @@
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+
+----
+color changer in js
+(function(){
+    	var colors = ['#1abc9c', '#2ecc71', '#3498db', '#ea5b4d', '#9b59b6', '#16a085', '#27ae60', '#2980b9', '#8e44ad', '#f1c40f', '#e67e22', '#e74c3c', '#f39c12', '#d35400', '#c0392b', '#06b3db', '#4ed486', '#6139f6', '#e3b63d', '#dc3d66', '#bd3559', '#bd54cd', '#0082c8', '#16528e', '#e54b4b', '#a2c5bf', '#167c80', '#72616e', '#e8846b', '#ea5b4d', '#72BDC2'],
+    	header = document.querySelectorAll('header')[0],
+    	currentColorIndex = 0,
+    	totalColors = colors.length;
+
+    	header.addEventListener('click', function() {
+    	    currentColorIndex = (currentColorIndex == totalColors - 1) ? 0 : currentColorIndex + 1;
+    	    currentColor = colors[currentColorIndex];
+    	    header.style.backgroundColor = currentColor;
+    	});
+__________
+
+function myFunction() {
+  var latters = 'ABCDEF1234567890'.split("");
+  var color = '#';
+  for (var i=0; i < 6; i++)
+  {
+  color+=latters[Math.floor(Math.random() * 16)];
+
+  }
+
+  document.getElementById("bg").style.background = color ;
+
+}
+
+
+
+window.onload = function(e) {
+		console.log("window loaded");
+
+document.getElementById("bg").addEventListener("click", myFunction);
+
+};
+
+
+
+
+
+-----
+
+
+
+
+
+
+different portfolios
+ https://www.designernews.co/stories/34809-softwareweb-developer-portfolio-examples
+
+
+
+ Who you are
+ What kind of work you do
+ How you do that work
+ Where you want to go next
+ And who YOU really want to work with.
+
+ http://benadam.me/
+^ really simple but boring
+
+
+
+black and white to color on hover
+
+img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;
+    }
+
+    img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+----------------------
+	useful git portfolio maker
+		https://www.gitshowcase.com/
+________________________
+
+making parrallax see through
+https://stackoverflow.com/questions/42757398/set-parallax-scrolling-div-with-opacity
+
+
+-----------
+site map visualisation
+
+mood board
+https://au.pinterest.com/jim_is55/portfolio/
