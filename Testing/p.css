@@ -1,8 +1,8 @@
+.container {
+	width:85%;
+}
 
-/* container background */
-/*.container {
-	background-color: #cecece;
-}*/
+
 
 /* clickable div*/
 #bg {
@@ -11,9 +11,9 @@
 	min-height: 3em;
 	left:25vw;
 	background-color: #2d2d2d;;
-	/*z-index: -2;*/
 	color: white;
 	text-align: center;
+	z-index: auto;
 }
 
 .about {
@@ -23,25 +23,40 @@
 }
 
 .image {
-	margin-left: -2px;
 	position: fixed;
-	right: 80%
-	left:1%;
-	/*z-index: -4;*/
+	right: 75%;
+	left:5%;
+	top: 5%;
 }
 
 .icon {
 	max-width: 10px;
 	max-height: 10px;
 	position:fixed;
-	top: 2%;
-	right: 8%;
-	bottom: 88%;
+	top: 5%;
+	right: 20%;
+	bottom: 85%;
+}
+
+.linkedgit {
+	position:fixed;
+	top: 80%;
+	left: 10%;
+}
+
+
+/*for testing */
+.purple {
+	min-height: 10em;
+}
+
+.myprojects {
+	min-height: 4em;
+	background-color: red;
 }
 
 .parallax {
-  background-color: black;
-  background-image: url("/Users/Titan/sites/week6/1monday/Testing/space.png");
+  /*background-color: #313131;*/
   height: 100%;
    /*Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -50,14 +65,12 @@
   background-size: cover;
 	z-index: -6;
   /*following just for demo purposes to add height and top padding*/
-  height: 300vh;
+  height: 180vh;
   padding-top: 200vh;
 }
 
-
 .parallax-curtain {
-	background-image: url("/Users/Titan/sites/week6/1monday/Testing/dino.jpeg");
 	height: 100vh;
 	z-index: auto;
-	background:rgba(0,0,0,0.5);
+	background:rgba(0,0,0,0.1);
 }
