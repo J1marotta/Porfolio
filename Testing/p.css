@@ -2,18 +2,41 @@
 	width:85%;
 }
 
+* {
+	border: 2px solid black;
+}
+
+img {
+    /* filter: url(filters.svg#grayscale); Firefox 3.5+ */
+      filter: gray; /* IE5+ */
+      -webkit-filter: grayscale(1); /* Webkit Nightlies & Chrome Canary */
+      -webkit-transition: all .8s ease-in-out;
+    }
+
+    img:hover {
+    filter: none;
+      -webkit-filter: grayscale(0);
+      -webkit-transform: scale(1.01);
+    }
+
+#canvas {
+	min-height: 600px;
+}
 
 
 /* clickable div*/
 #bg {
-	position:fixed;
+	/*position:fixed;*/
 	top: 40%;
-	min-height: 3em;
+	min-height: 10em;
 	left:25vw;
 	background-color: #2d2d2d;;
 	color: white;
 	text-align: center;
 	z-index: auto;
+	border-radius: 2px;
+	text-decoration:none;
+	display: table-cell;
 }
 
 .about {
@@ -27,6 +50,7 @@
 	right: 75%;
 	left:5%;
 	top: 5%;
+	display: table;
 }
 
 .icon {
@@ -52,7 +76,7 @@
 
 .myprojects {
 	min-height: 4em;
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .parallax {
@@ -72,5 +96,5 @@
 .parallax-curtain {
 	height: 100vh;
 	z-index: auto;
-	background:rgba(0,0,0,0.1);
+	background:rgba(0,0,0,0.0);
 }

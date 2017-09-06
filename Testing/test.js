@@ -19,6 +19,4 @@ window.onload = function(e) {
 
 document.getElementById("bg").addEventListener("click", myFunction);
 
-
-
-};
+}
