@@ -1,0 +1,38 @@
+.clicker {
+	background-color: blue;
+	min-height: 20em;
+	z-index: 1;
+	padding-top: 4em;
+}
+
+.image {
+	z-index: 5;
+	transform:
+}
+
+.side {
+	z-index: 2;
+	background-color: yellow;
+}
+
+.canvas {
+	background-color: darkgreen;
+	min-height: 20em;
+}
+
+* {
+	border: 2px solid black;
+}
+
+.pagewrapper {
+	background-color: teal;
+}
+
+.container {
+	background-color: darkred;
+}
+
+#sketch canvas {
+	width:100%;
+	height: auto;
+}
